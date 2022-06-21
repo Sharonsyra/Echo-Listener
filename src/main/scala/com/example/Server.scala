@@ -6,7 +6,6 @@ import akka.http.scaladsl.Http
 import com.example.Registry.appRoute
 
 import scala.concurrent.ExecutionContextExecutor
-import scala.io.StdIn
 
 object Server {
 
