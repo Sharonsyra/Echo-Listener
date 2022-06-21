@@ -1,9 +1,9 @@
-package com.example
+package com.sharonsyra
 
 import akka.http.scaladsl.model.ContentTypes
 import akka.http.scaladsl.model.headers.OAuth2BearerToken
 import akka.http.scaladsl.testkit.ScalatestRouteTest
-import com.example.Registry.appRoute
+import com.sharonsyra.Registry.appRoute
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 

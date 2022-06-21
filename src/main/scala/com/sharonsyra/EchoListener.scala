@@ -1,4 +1,4 @@
-package com.example
+package com.sharonsyra
 
 import akka.http.scaladsl.model.HttpRequest
 import io.circe.Json
@@ -14,7 +14,7 @@ object EchoListener {
     requestingIP: String
   )
 
-  private[example] def echoListener(request: HttpRequest): Json = {
+  private[sharonsyra] def echoListener(request: HttpRequest): Json = {
     RequestInfo(
       requestPath = request.uri.toString(),
       headers = request.headers.map(httpHeader => s"${httpHeader.name()}: ${httpHeader.value()}"),

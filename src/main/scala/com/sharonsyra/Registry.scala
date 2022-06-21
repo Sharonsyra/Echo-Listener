@@ -1,4 +1,4 @@
-package com.example
+package com.sharonsyra
 
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity}
 import akka.http.scaladsl.server.Directives.path
